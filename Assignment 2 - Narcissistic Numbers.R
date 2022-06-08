@@ -20,8 +20,8 @@ v2 <- as.numeric(v2)
 v3 <- as.numeric(v3)
 
 #Check if user input is valid 
-if (is.na(number > 0)) {
-  print("Error; not numeric value. Please quit program")
+if (is.na(number)) {
+  print("Error. Quit program")
 }
 
 #Check if number is narcissistic/an Armstrong number
@@ -30,6 +30,8 @@ if (sum((v1^3), (v2^3), (v3^3)) == number) {
 } else {
   print(paste0(number, " is not an Armstrong number"))
 }
+
+
 
 
 
