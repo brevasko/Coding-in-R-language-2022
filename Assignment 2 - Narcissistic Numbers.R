@@ -25,7 +25,7 @@ if (is.na(number > 0)) {
 }
 
 #Check if number is narcissistic/an Armstrong number
-if (sum((v1^3), (v2^3), (v3^3))) {
+if (sum((v1^3), (v2^3), (v3^3)) == number) {
   print(paste0(number, " is an Armstrong number"))
 } else {
   print(paste0(number, " is not an Armstrong number"))
